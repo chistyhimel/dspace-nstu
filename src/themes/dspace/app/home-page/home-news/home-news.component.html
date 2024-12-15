@@ -1,39 +1,60 @@
-<div class="background-image-container mt-ncs">
-  <div class="container">
-    <div class="jumbotron jumbotron-fluid">
-      <div class="d-flex flex-wrap">
-        <div>
-          <h1 class="display-3">DSpace 7</h1>
-          <p class="lead">DSpace is the world leading open source repository platform that enables
-            organisations to:</p>
+<div class="background-image-container mt-ncs mb-4">
+  <div class="overlay"></div>
+  <div class="container text-md-start pt-5 pb-5">
+    <div class="content-wrapper rounded shadow-lg">
+      <h1 class="display-4 fw-bold text-uppercase text-highlight">
+        NSTU Institutional Repository
+      </h1>
+      <p class="lead text-highlight">
+        Explore the innovative research, academic resources, and intellectual
+        contributions of Noakhali Science and Technology University (NSTU), all
+        in one platform.
+      </p>
+      <ul class="list-group list-group-flush mb-4">
+        <li class="list-group-item bg-transparent">
+          <i
+            class="iconify text-highlight"
+            data-icon="carbon:document-tasks"
+          ></i>
+          Access scholarly articles, research papers, and publications from NSTU
+          faculties and researchers.
+        </li>
+        <li class="list-group-item bg-transparent">
+          <i class="iconify text-highlight" data-icon="mdi:library"></i>
+          Digitized library archives for seamless access to educational
+          materials and institutional heritage.
+        </li>
+        <li class="list-group-item bg-transparent">
+          <i class="iconify text-highlight" data-icon="mdi:cloud-upload"></i>
+          Submit and preserve your academic work for global visibility and
+          long-term storage.
+        </li>
+      </ul>
+      <div class="statistics d-flex justify-content-center gap-4 mt-4">
+        <div class="stat-item text-center">
+          <h2 class="stat-value">10K+</h2>
+          <p class="stat-label">Research Papers</p>
+        </div>
+        <div class="stat-item text-center">
+          <h2 class="stat-value">1,500+</h2>
+          <p class="stat-label">Faculty Contributions</p>
+        </div>
+        <div class="stat-item text-center">
+          <h2 class="stat-value">50+</h2>
+          <p class="stat-label">Departments Represented</p>
         </div>
       </div>
-      <ul>
-        <li>easily ingest documents, audio, video, datasets and their corresponding Dublin Core
-          metadata
-        </li>
-        <li>open up this content to local and global audiences, thanks to the OAI-PMH interface and
-          Google Scholar optimizations
-        </li>
-        <li>issue permanent urls and trustworthy identifiers, including optional integrations with
-          handle.net and DataCite DOI
-        </li>
-      </ul>
-      <p>Join an international community of <a href="https://wiki.lyrasis.org/display/DSPACE/DSpace+Positioning" target="_blank">leading institutions using DSpace</a>.</p>
-      <p>The test user accounts below have their password set to the name of this
-        software in lowercase.</p>
-      <ul>
-        <li>Demo Site Administrator = dspacedemo+admin@gmail.com</li>
-        <li>Demo Community Administrator = dspacedemo+commadmin@gmail.com</li>
-        <li>Demo Collection Administrator = dspacedemo+colladmin@gmail.com</li>
-        <li>Demo Submitter = dspacedemo+submit@gmail.com</li>
-      </ul>
     </div>
   </div>
   <picture class="background-image">
-    <source type="image/webp" srcset="assets/dspace/images/banner.webp 2000w, assets/dspace/images/banner-half.webp 1200w, assets/dspace/images/banner-tall.webp 768w">
-    <source type="image/jpg" srcset="assets/dspace/images/banner.jpg 2000w, assets/dspace/images/banner-half.jpg 1200w, assets/dspace/images/banner-tall.jpg 768w">
-    <img alt="" [src]="'assets/dspace/images/banner.jpg'"/><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
+    <source
+      type="image/jpg"
+      srcset="
+        assets/dspace/images/banner.jpg 2000w,
+        assets/dspace/images/banner.jpg 1200w,
+        assets/dspace/images/banner.jpg  768w
+      "
+    />
+    <img alt="" [src]="'assets/dspace/images/banner.jpg'" />
   </picture>
-  <small class="credits">Photo by <a href="https://www.pexels.com/@inspiredimages">@inspiredimages</a></small>
 </div>
