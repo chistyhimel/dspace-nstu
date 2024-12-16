@@ -42,7 +42,8 @@
   }
 
   #main-navbar ::ng-deep {
-    .ds-menu-item, .ds-menu-toggler-wrapper {
+    .ds-menu-item,
+    .ds-menu-toggler-wrapper {
       white-space: nowrap;
       text-decoration: none;
     }
@@ -53,10 +54,11 @@
 
     .ds-menu-item {
       display: block;
-      color: var(--ds-navbar-link-color);
+      color: #fff;
       padding: 0.5rem 0;
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         color: var(--ds-navbar-link-color-hover);
       }
     }
